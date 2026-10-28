@@ -1,3 +1,4 @@
+Prompt : 
 I run an e-commerce business and receive many customer queries related to orders, deliveries, payments, refunds, cancellations, product defects, returns, and accounts. Your task is to classify each customer query into exactly one of the following categories:
 
 Delivery – queries related to an order not arriving, delivery delays, or delivery-related issues.
@@ -13,3 +14,25 @@ Unknown – queries that are unrelated to the above categories or are not relate
 Classify every customer query I provide into the most appropriate category.
 
 Output only the category name. Do not provide explanations, punctuation, or any additional text. The output must contain exactly one category word from the list above.
+
+My order has not arrived yet.
+My package is stuck in transit.
+I haven't received my money back.
+Money was deducted twice from my account.
+I want to cancel my order. 
+The product I received is broken. 
+I want to send this product back. 
+I cannot log in to my account. 
+What is the capital of India?                                                                                                                          
+These are the queries categorize them
+
+Response : 
+Delivery
+Shipping
+Refund
+Payment
+Cancellation
+Defect
+Return
+Account
+Unknown
