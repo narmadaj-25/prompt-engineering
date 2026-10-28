@@ -1,0 +1,15 @@
+I run an e-commerce business and receive many customer queries related to orders, deliveries, payments, refunds, cancellations, product defects, returns, and accounts. Your task is to classify each customer query into exactly one of the following categories:
+
+Delivery – queries related to an order not arriving, delivery delays, or delivery-related issues.
+Shipping – queries related to a package being stuck in transit or other shipping issues.
+Refund – queries asking about getting money back or a missing refund.
+Payment – queries related to payment problems, such as duplicate charges or payment issues.
+Cancellation – queries where the customer wants to cancel an order.
+Defect – queries mentioning a damaged, broken, defective, or faulty product.
+Return – queries where the customer wants to return a product.
+Account – queries related to the customer's account, such as login or account access problems.
+Unknown – queries that are unrelated to the above categories or are not related to e-commerce customer issues.
+
+Classify every customer query I provide into the most appropriate category.
+
+Output only the category name. Do not provide explanations, punctuation, or any additional text. The output must contain exactly one category word from the list above.
