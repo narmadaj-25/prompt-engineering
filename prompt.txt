@@ -1,3 +1,4 @@
+1
 Prompt : 
 I run an e-commerce business and receive many customer queries related to orders, deliveries, payments, refunds, cancellations, product defects, returns, and accounts. Your task is to classify each customer query into exactly one of the following categories:
 
@@ -36,3 +37,31 @@ Defect
 Return
 Account
 Unknown
+
+2
+Prompt : 
+I own an online shopping company and want to analyze customer reviews to understand customer satisfaction. Classify each customer review into exactly one of the following sentiment categories:
+
+Positive – the review expresses satisfaction, appreciation, praise, or a generally positive opinion about the product, service, delivery, or customer support.
+Negative – the review expresses dissatisfaction, criticism, complaints, or a generally negative opinion.
+Neutral – the review does not express a clearly positive or negative sentiment and only provides factual or neutral information.
+
+For reviews containing both positive and negative opinions, classify the review based on the overall sentiment expressed
+For every review I provide, output only the category name: Positive, Negative, or Neutral.
+Do not provide explanations, punctuation, or any additional text. The output must contain exactly one word.
+
+The product is excellent, and I love its quality. 
+The delivery was late, and the product was damaged. 
+The product arrived yesterday. 
+The customer support team was extremely helpful. 
+The product is not worth the money. 
+The package contained two items. 
+The phone is good, but the battery life is terrible.                                                                                            categorize these reviews
+Response : 
+Positive  
+Negative  
+Neutral  
+Positive  
+Negative  
+Neutral  
+Negative
