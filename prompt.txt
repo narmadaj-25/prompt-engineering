@@ -1,7 +1,6 @@
 1
 Prompt : 
 I run an e-commerce business and receive many customer queries related to orders, deliveries, payments, refunds, cancellations, product defects, returns, and accounts. Your task is to classify each customer query into exactly one of the following categories:
-
 Delivery – queries related to an order not arriving, delivery delays, or delivery-related issues.
 Shipping – queries related to a package being stuck in transit or other shipping issues.
 Refund – queries asking about getting money back or a missing refund.
@@ -11,9 +10,7 @@ Defect – queries mentioning a damaged, broken, defective, or faulty product.
 Return – queries where the customer wants to return a product.
 Account – queries related to the customer's account, such as login or account access problems.
 Unknown – queries that are unrelated to the above categories or are not related to e-commerce customer issues.
-
 Classify every customer query I provide into the most appropriate category.
-
 Output only the category name. Do not provide explanations, punctuation, or any additional text. The output must contain exactly one category word from the list above.
 
 My order has not arrived yet.
@@ -25,7 +22,7 @@ The product I received is broken.
 I want to send this product back. 
 I cannot log in to my account. 
 What is the capital of India?                                                                                                                          
-These are the queries categorize them
+  These are the queries categorize them
 
 Response : 
 Delivery
@@ -41,7 +38,6 @@ Unknown
 2
 Prompt : 
 I own an online shopping company and want to analyze customer reviews to understand customer satisfaction. Classify each customer review into exactly one of the following sentiment categories:
-
 Positive – the review expresses satisfaction, appreciation, praise, or a generally positive opinion about the product, service, delivery, or customer support.
 Negative – the review expresses dissatisfaction, criticism, complaints, or a generally negative opinion.
 Neutral – the review does not express a clearly positive or negative sentiment and only provides factual or neutral information.
@@ -71,7 +67,6 @@ Negative
 3
 Prompt:
 You are a Customer Support Urgency Classifier. Analyze the customer's query and classify its urgency based on the impact and importance of the issue.
-
 High: Critical issues requiring immediate attention, such as hacked accounts, stolen money, or urgent payment problems.
 Medium: Issues requiring attention but not immediate action, such as delayed refunds or delivery changes.
 Low: General questions or non-urgent requests, such as subscription information or profile updates.
