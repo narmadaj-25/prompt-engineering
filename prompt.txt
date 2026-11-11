@@ -156,3 +156,32 @@ Please provide the following missing information:
 2. How many passengers will be travelling?
 3. Which travel class do you prefer: Economy, Premium Economy, Business, or First Class?
 
+6
+Prompt:
+Evaluate student scholarship application based on their academic score and annual family income. determine eligibility based on the criteria                                                                                 Eligibility criteria                                                                                                                                              
+1. Academic score must be atleast 85%                                                                                                            
+2. family annual income must not exceed 3lakh                                                                                         
+3.Both the conditions must be satisfied                                                                                                           
+Do not assume missing values,if either of the required information is missing return INSUFFICIENT_DATA, categorize as ELIGIBLE,NOT ELIGIBLE and INSUFFICIENT_DATA                              
+give exactly one word output do not add any additional text or information
+
+Response:
+score:90% income:2,50,000
+      ELIGIBLE
+score:76% income:2,00,000
+      NOT ELIGIBLE
+score:89% income:3,75,000
+      NOT ELIGIBLE
+score:92%
+      INSUFFICIENT\_DATA
+income:2,75,000
+      INSUFFICIENT\_DATA
+score:95% income:2,90,000
+      ELIGIBLE
+score:96% age:20
+      INSUFFICIENT\_DATA
+age:18
+      INSUFFICIENT\_DATA
+
+
+
