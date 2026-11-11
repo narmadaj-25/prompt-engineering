@@ -178,5 +178,28 @@ score:96% age:20
 age:18
       INSUFFICIENT\_DATA
 
+7
+Prompt:
+classify patients symptoms into urgency levels to determine how quickly medical attention is needed. Assign an appropriate triage category based on predefined rules                                                Categorizes:                                                                                                                                                   
+Emergency: life threatening symptoms requiring immediate emergency medical attention                       
+Urgent: Symptoms requiring prompt medical assessment                                                                          
+Routine: Mild symptoms that requires non emergency mediacal appointment                                        
+Insufficient data : information provided is insufficient to determine a right category                                 
+Do not assume symptoms do not ask follow up questions if emergency is reported. Do not give explanation .Return exactly one label
 
+Response:
+I have a severe chest pain
+Emergency
+i have a sore throat
+Routine
+my nose are bleeding
+Urgent
+i feel tired
+Routine
+i feel somewhat
+Insufficient data
+i fell down the stairs and im not able to move my leg
+Emergency
+I guess my stomach is hurting
+Insufficient data
 
