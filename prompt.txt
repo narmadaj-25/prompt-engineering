@@ -22,7 +22,7 @@ I want to cancel my order.
 The product I received is broken. 
 I want to send this product back. 
 I cannot log in to my account. 
-What is the capital of India?                                                                                                                          
+What is the capital of India?                                                                                                                         
 
 Response : 
 Delivery
